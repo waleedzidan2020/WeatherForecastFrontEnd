@@ -34,7 +34,7 @@ GetWeatherAnchor.addEventListener("click",(ev)=>{
 
 function LoadingData(searchtext) {
 
-  fetch("http://waleedfox-001-site1.etempurl.com/WeatherForecast/Get")
+  fetch("http://forecast666.somee.com/WeatherForecast")
     .then(
       (res) => res.json())
     .then((data) => {
