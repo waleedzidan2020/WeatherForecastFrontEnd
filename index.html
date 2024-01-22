@@ -23,8 +23,6 @@
              
             </ul>
            
-              <input id="SearchBar" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button id="ButtonSearch" class="btn btn-outline-success" type="submit">Search</button>
           
           </div>
         </div>
@@ -38,6 +36,10 @@
             <th scope="col">temperatureF</th>
             <th scope="col">summary</th>
           </tr>
+             
+          <input id="SearchBar" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button id="ButtonSearch" class="btn btn-outline-success" type="submit">Search</button>
+      
         </thead>
         <tbody>
          
@@ -45,6 +47,10 @@
       </table>
     </div>
     </div>
-    <script src="Action.js"></script>
+
+    <audio id="music" src="/Music.mp3" loop autoplay></audio>
+    <button onclick="togglePlay()">Play/Pause</button>
+    <script src="/Actions.js"></script>
+  
 </body>
 </html>
